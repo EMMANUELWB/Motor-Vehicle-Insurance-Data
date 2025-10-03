@@ -1,9 +1,10 @@
+
 # 🚗 Motor Vehicle Insurance Data Analysis
 
 ## 📌 Project Overview
 
-This project explores a motor vehicle insurance dataset, focusing on **data quality checks, exploratory data analysis (EDA), and visualizations**.
-The goal is to assess the dataset’s consistency, uncover patterns in claims, and highlight key insurance risk insights.
+This project explores a motor vehicle insurance dataset, focusing on **data cleaning, quality checks, exploratory data analysis (EDA), and visualizations**.
+The goal is to assess the dataset’s consistency, uncover patterns in claims, and highlight key insights for insurance risk and policy analysis.
 
 All analysis was performed using **Excel** (for profiling, cleaning, and EDA) and **Tableau** (for dashboards).
 
@@ -12,70 +13,85 @@ All analysis was performed using **Excel** (for profiling, cleaning, and EDA) an
 ## 📂 Repository Structure
 
 ```
-├── data/                     # Raw and cleaned datasets (if shareable)
-├── analysis/                 # Excel files for data cleaning & EDA
-│   ├── Discrete_Numerical_Column.xlsx
-│   ├── EDA_Continuous_Numerical_Column.xlsx
-│   ├── Data_Profiling.xlsx
-│   ├── Sum_Consistency_Check_Process.xlsx
-├── visualizations/           # Tableau dashboards or screenshots
-├── docs/                     # Data dictionary, methodology notes
-└── README.md                 # Project summary and documentation
+Motor-Vehicle-Insurance-Data/
+├── data/
+│   ├── raw/
+│   │   └── Motor_vehicle_insurance_data.csv       # Original raw dataset
+│   └── clean/
+│       └── Motor_vehicle_insurance_data_AL.xlsx  # Exported clean worksheet only
+├── analysis/
+│   └── Motor_vehicle_insurance_data_ALL.xlsx     # Working workbook: clean worksheet + EDA + logs
+├── visualizations/                                # Tableau dashboards or screenshots
+├── docs/                                         # Data dictionary, methodology notes
+└── README.md
 ```
 
 ---
 
-## 🛠️ Data Quality & Profiling
+## 🧹 Data Cleaning & Profiling Methodology
 
-Data preparation included extensive consistency checks and profiling:
+### 1. **Data Profiling**
 
-* **[Data_Profiling.xlsx](/analysis/Data_Profiling.xlsx):**
-  Summary of issues detected (missing values, wrong data types, inconsistent entries) with notes on actions taken.
+* Inspect the dataset structure (columns, first few rows).
+* Confirm data types (dates, numbers, text).
+* Generate summary statistics for numerical and categorical columns.
+* Identify missing values and assess the impact on analysis.
 
-* **[Sum_Consistency_Check_Process.xlsx](/analysis/Sum_Consistency_Check_Process.xlsx):**
-  A log of illogical values, number of affected rows, and how they were corrected.
+### 2. **Data Cleaning**
 
-This ensures that subsequent EDA and visualization are based on a **clean and reliable dataset**.
+* Handle missing values with deletion or imputation (mean/median/mode).
+* Correct data types where necessary (e.g., convert strings to dates).
+* Detect and remove duplicate rows.
+
+### 3. **Data Validation**
+
+* Detect outliers using IQR or Z-score methods.
+* Check logical consistency (e.g., policy start date ≤ end date, realistic vehicle ages).
+
+### 4. **Data Documentation**
+
+* Create a **data dictionary** describing each column, its type, meaning, and transformations applied.
+
+### 5. **Data Auditing**
+
+* Review all steps to ensure the dataset is clean, consistent, and ready for analysis.
+
+> **Note:** All profiling, cleaning, and validation steps are recorded inside `Motor_vehicle_insurance_data_ALL.xlsx` for reproducibility.
 
 ---
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
-EDA was conducted on **discrete** and **continuous** variables:
+* **Discrete variables:** Frequency distributions and observations are in `Discrete_Numerical_Column`.
+* **Continuous variables:** Histograms, log transformations, and handling strategies are in `EDA_CONT_Numerical_Column`.
 
-* [Discrete Variables](/analysis/Discrete_Numerical_Column.xlsx): Frequency distributions and observations.
-* [Continuous Variables](/analysis/EDA_Continuous_Numerical_Column.xlsx): Histograms, transformations, and handling strategies.
-
----
-
-## 📊 Dashboard & Findings
-
-Dashboards were built in Tableau to visualize:
-
-* Distribution of insurance claims by demographics.
-* Frequency and cost of claims.
-* Policy type and vehicle usage patterns.
-
-👉 View Tableau dashboard screenshots [here](/visualizations).
+All EDA steps are documented inside the working Excel file in `analysis/`.
 
 ---
 
-## 📑 Documentation
+## 📊 Visualizations & Findings
 
-* [Data Dictionary](/docs/data_dictionary.md)
-* [Methodology & Notes](/docs/methodology.md)
+* Dashboards built in Tableau visualize:
+
+  * Distribution of insurance claims by demographics.
+  * Frequency and cost of claims.
+  * Policy type and vehicle usage patterns.
+
+Tableau dashboards (or screenshots) can be found in the `visualizations/` folder.
 
 ---
 
 ## 🚀 Next Steps
 
 * Expand analysis with predictive modeling (e.g., claim likelihood).
-* Automate cleaning pipeline using SQL or Python.
+* Automate cleaning and EDA pipeline using **SQL or R**.
 * Scale Tableau dashboards for live reporting.
 
 ---
 
 ## 👤 Author
 
-Project by **Emmanuel Agbo**
-Data Analyst | Excel • SQL • Tableau • R
+**Emmanuel Agbo** — Data Analyst | Excel • SQL • Tableau • R
+
+---
+
