@@ -46,20 +46,14 @@ This project investigates a motor vehicle insurance portfolio with a strict focu
 
 ---
 
-### 5. **Advanced Statistical Tests**
+## 5. Advanced Statistical Tests
 
-* **Extracted files:**
+All detailed descriptions and results for statistical tests are located in the **analysis** folder. Each test includes a short interpretation alongside its CSV output for quick inspection.
 
-  * [analysis/t_test.csv](analysis/t_test.csv)
-  * [analysis/chi_square.csv](analysis/chi_square.csv)
-  * [analysis/anova.csv](analysis/anova.csv)
-  * [analysis/post_hoc.csv](analysis/post_hoc.csv)
-
-* **Tasks performed:**
-
-  * **T-Test:** Assessed premium differences by risk type.
-  * **Chi-Square:** Measured relationships between categorical factors.
-  * **ANOVA + Post-Hoc:** Tested premium variation across multiple groups and validated group differences.
+* [T-Test Results & Interpretation](analysis/t_test.md)
+* [ANOVA Results & Interpretation](analysis/anova.md)
+* [Chi-Square Results & Interpretation](analysis/chi_square.md)
+* [Post-Hoc Test Results & Interpretation](analysis/post_hoc.md)
 
 ---
 
