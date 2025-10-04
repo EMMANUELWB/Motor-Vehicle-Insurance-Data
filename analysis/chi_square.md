@@ -30,3 +30,7 @@ We tested the relationship between **risk categories** and a **Yes/No outcome** 
 ## Interpretation
 
 There is a **highly significant association** between the categorical variables analyzed. The probability of observing this result by chance is effectively zero, which strongly rejects the null hypothesis of independence.
+The risk categories are tied to the Second_driver Yes/No outcome. The Chi-Square test shows a strong association.
+## **Why** **this** **matters** **(short)**
+The observed Yes/No counts vary by risk category in a way that would be very unlikely if there were no relationship.
+The High-risk and Very High rows contribute most to this association.
