@@ -10,7 +10,6 @@ This project investigates a motor vehicle insurance portfolio with a strict focu
 
 ## 🧭 Workflow: Step-by-step (Data Quality → Analysis → Insights)
 
-> Follow these steps in order — extract, save as CSV, validate, and move on. Think of it as an assembly line for trustworthy data.
 
 ### 1. **Data Profiling**
 
