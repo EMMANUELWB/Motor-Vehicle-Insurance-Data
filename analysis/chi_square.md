@@ -1,6 +1,6 @@
 # Chi-Square Test Analysis
 
-We tested the relationship between **risk categories** and a **Yes/No outcome** (e.g., claims or subscriptions).
+We tested the relationship between **risk categories** and a **Yes/No outcome** (**Second_driver**).
 
 ---
 
