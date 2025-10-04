@@ -9,7 +9,7 @@ We compared drivers with subscriptions (Premium_Channel_1) against drivers witho
 - p-value: ≈ 0  
 
 **Interpretation:**  
-The mean premium for drivers with subscriptions is **statistically significantly higher** than for those without (p ≪ 0.001). However, the standardized effect (Cohen's d ≈ 0.18) is **small**, meaning the practical difference—while consistent and repeatable given huge sample sizes—is modest (~$26 difference on average). This suggests subscription status correlates with higher premiums, but it may not be a strong standalone driver of premium magnitude; consider controlling for confounders (vehicle value, risk type, age, channel) in follow-up models.
+The mean premium for drivers with subscriptions is **statistically significantly higher** than for those without (p ≪ 0.001). However, the standardized effect (Cohen's d ≈ 0.18) is **small**, meaning the practical difference while consistent and repeatable given huge sample sizes is modest (~$26 difference on average). This suggests subscription status correlates with higher premiums, but it may not be a strong standalone driver of premium magnitude; consider controlling for confounders (vehicle value, risk type, age, channel) in follow-up models.
 
 ---
 
