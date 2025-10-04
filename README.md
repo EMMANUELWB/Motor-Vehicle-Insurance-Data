@@ -1,97 +1,95 @@
-
 # 🚗 Motor Vehicle Insurance Data Analysis
 
 ## 📌 Project Overview
 
-This project explores a motor vehicle insurance dataset, focusing on **data cleaning, quality checks, exploratory data analysis (EDA), and visualizations**.
-The goal is to assess the dataset’s consistency, uncover patterns in claims, and highlight key insights for insurance risk and policy analysis.
+This project investigates a motor vehicle insurance portfolio with a strict focus on **data quality, reproducible cleaning, exploratory data analysis (EDA), and advanced statistical testing**. The workflow is deliberately linear and auditable so anyone can trace a finding back to the exact sheet and step that produced it.
 
-All analysis was performed using **Excel** (for profiling, cleaning, and EDA) and **Tableau** (for dashboards).
-
----
-
-## 📂 Repository Structure
-
-```
-Motor-Vehicle-Insurance-Data/
-├── data/
-│   ├── raw/
-│   │   └── Motor_vehicle_insurance_data.csv       # Original raw dataset
-│   └── clean/
-│       └── Motor_vehicle_insurance_data_AL.xlsx  # Exported clean worksheet only
-├── analysis/
-│   └── Motor_vehicle_insurance_data_ALL.xlsx     # Working workbook: clean worksheet + EDA + logs
-├── visualizations/                                # Tableau dashboards or screenshots
-├── docs/                                         # Data dictionary, methodology notes
-└── README.md
-```
+**Tools used:** Excel (profiling, cleaning, EDA, tests) • Tableau (dashboards) • R (automation / extensions planned)
 
 ---
 
-## 🧹 Data Cleaning & Profiling Methodology
+## 🧭 Workflow: Step-by-step (Data Quality → Analysis → Insights)
+
+> Follow these steps in order — extract, save as CSV, validate, and move on. Think of it as an assembly line for trustworthy data.
 
 ### 1. **Data Profiling**
 
-* Inspect the dataset structure (columns, first few rows).
-* Confirm data types (dates, numbers, text).
-* Generate summary statistics for numerical and categorical columns.
-* Identify missing values and assess the impact on analysis.
-
-### 2. **Data Cleaning**
-
-* Handle missing values with deletion or imputation (mean/median/mode).
-* Correct data types where necessary (e.g., convert strings to dates).
-* Detect and remove duplicate rows.
-
-### 3. **Data Validation**
-
-* Detect outliers using IQR or Z-score methods.
-* Check logical consistency (e.g., policy start date ≤ end date, realistic vehicle ages).
-
-### 4. **Data Documentation**
-
-* Create a **data dictionary** describing each column, its type, meaning, and transformations applied.
-
-### 5. **Data Auditing**
-
-* Review all steps to ensure the dataset is clean, consistent, and ready for analysis.
-
-> **Note:** All profiling, cleaning, and validation steps are recorded inside `Motor_vehicle_insurance_data_ALL.xlsx` for reproducibility.
+* **Extracted file:** `docs/data_profiling.csv`
+* **Tasks performed:** Checked data types, missing values, and duplicates. Generated summary statistics (mean, median, std for numerics; counts for categoricals). Logged missing-value counts by column.
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+### 2. **Consistency Checks**
 
-* **Discrete variables:** Frequency distributions and observations are in `Discrete_Numerical_Column`.
-* **Continuous variables:** Histograms, log transformations, and handling strategies are in `EDA_CONT_Numerical_Column`.
-
-All EDA steps are documented inside the working Excel file in `analysis/`.
+* **Extracted file:** `docs/consistency_checks.csv`
+* **Tasks performed:** Logical validation (policy start ≤ end dates, premium ≥ 0, claim ≤ premium, realistic vehicle ages). Documented affected rows and corrective actions.
 
 ---
 
-## 📊 Visualizations & Findings
+### 3. **Clean Dataset**
 
-* Dashboards built in Tableau visualize:
+* **Extracted file:** `data_clean/Motor_vehicle_insurance_data_AL.csv`
+* **Tasks performed:** Removed inconsistencies, enforced data types (dates, numerics), removed duplicates, and produced the **ready-to-use clean dataset** for further analysis.
 
-  * Distribution of insurance claims by demographics.
-  * Frequency and cost of claims.
-  * Policy type and vehicle usage patterns.
+---
 
-Tableau dashboards (or screenshots) can be found in the `visualizations/` folder.
+### 4. **Exploratory Data Analysis (EDA)**
+
+* **Extracted files:**
+
+  * Continuous analysis → `analysis/EDA_CONT_Numerical.csv`
+  * Discrete/categorical analysis → `analysis/Discrete_Numerical_Column.csv`
+
+* **Tasks performed:**
+
+  * **Continuous variables:** Explored premium distribution, claim costs, outliers, and skewness. Applied log transformations and binning where necessary.
+  * **Categorical variables:** Examined driver count, policy risk categories, and sales channels, merging or re-labeling rare categories where appropriate.
+
+---
+
+### 5. **Advanced Statistical Tests**
+
+* **Extracted files:**
+
+  * `analysis/t_test.csv`
+  * `analysis/chi_square.csv`
+  * `analysis/anova.csv`
+  * `analysis/post_hoc.csv`
+
+* **Tasks performed:**
+
+  * **T-Test:** Assessed premium differences by risk type.
+  * **Chi-Square:** Measured relationships between categorical factors.
+  * **ANOVA + Post-Hoc:** Tested premium variation across multiple groups and validated group differences.
+
+---
+
+## 🔍 Key Findings
+
+* **Premium vs. Risk:** Low-risk policies averaged **$143**, high-risk policies averaged **$327**.
+* **Claims & Drivers:** Policies with a **second driver** were more likely to be high-risk.
+* **Sales Channels & Retention:** Premiums vary across sales channels, implying channel-specific customer mixes and retention dynamics.
+
+---
+
+## 📊 Visualizations
+
+Interactive dashboards were built in Tableau to visualize the above relationships (claims, premiums, channels, risk profiles).
+👉 [Motor Vehicle Insurance Dashboard — Tableau Public](https://public.tableau.com/app/profile/emmanuel.agbo3961/viz/MotorVehicleInsuranceAnalytics/Dashboard1?publish=yes)
+
+Screenshots of the dashboards are saved in the `visualizations/` folder for quick viewing.
 
 ---
 
 ## 🚀 Next Steps
 
-* Expand analysis with predictive modeling (e.g., claim likelihood).
-* Automate cleaning and EDA pipeline using **SQL or R**.
-* Scale Tableau dashboards for live reporting.
+* Expand into predictive modeling for claim likelihood and premium optimization.
+* Automate the cleaning & EDA pipeline using **SQL or R** so future data ingests run like clockwork.
+* Turn Tableau dashboards into scheduled reports or publish them to a hosted server for stakeholders.
 
 ---
 
 ## 👤 Author
 
 **Emmanuel Agbo** — Data Analyst | Excel • SQL • Tableau • R
-
----
 
