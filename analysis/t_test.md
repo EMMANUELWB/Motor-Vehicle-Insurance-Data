@@ -19,4 +19,5 @@ There is a statistically significant difference between the two groups. Subscrip
 |-----------------|-----------------|------------|------------|----------------|----------------|-------|---------|--------------|------------------------|
 | 330.14          | 304.27          | 20884.15   | 18713.43   | 47613          | 57874          | 99292 | 29.6367 | ≈ 0          | 1.96                   |
 
-📊 [Download CSV](https://raw.githubusercontent.com/EMMANUELWB/Motor-Vehicle-Insurance-Data/main/analysis/t_test.csv)
+[📊 Open in Google Sheets](https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID/edit?usp=sharing)
+
