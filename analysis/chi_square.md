@@ -6,6 +6,7 @@ We tested the relationship between **risk categories** and a **Yes/No outcome** 
 
 ## Full Chi-Square Table
 
+
 |Type_Risk  | No	  | Yes		| Grand_Total	   | Expected_Value_No | Expected_Value_Yes | Difference_No | Difference Yes | Contributions_No | Contributions_Yes|
 | --------- | ----------- | ----------- | ---------------- | ----------------- | ------------------ | ------------- |--------------- | ---------------- | -----------------|
 | High	    | 70656       | 12282       | 82938      	   | 72679.15271       | 10258.84729        | -2023.152711  | 2023.152711    | 1818.798669      |
