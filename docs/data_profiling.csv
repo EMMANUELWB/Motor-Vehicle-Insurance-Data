@@ -1,0 +1,31 @@
+Column,Issue_Detected,No-of_Affected_Rows,Data_Type_State,Inconsistency,Actions_Taken
+ID,Recurring Id,,General,,
+Date_start_contract,None,,Date-- The right type,,Not Applicable
+Date_last_renewal,Illogical date,68,Date-- The right type,68,Deleted Blanks
+Date_next_renewal,None,0,Date-- The right type,0,Not Applicable
+Date_birth,None,0,Date-- The right type,0,
+Date_driving_licence,None,0,Date-- The right type,0,
+Distribution_channel,None,0,Date-- The right type,0,
+Seniority,None,0,General,0,Standardize the data-type to number
+Policies_in_force,None,0,General,0,Standardize the data-type to number
+Max_policies,None,0,General,0,Standardize the data-type to number
+Max_products,None,0,General,0,Standardize the data-type to number
+Lapse,None,0,General,0,
+Date_lapse,Blanks,70408,Date-- The right type,0,Removed the Date_lapse because Lapse column already contains the information I need
+Payment,Not Clear,Not Clear,Not Clear,Not Clear,Not Clear
+Premium,Wrong Datatype,All,General,0,Standardize the data-type to currency
+Cost_claims_year,Wrong Datatype,All,General,0,Standardize the data-type to currency
+N_claims_year,Wrong Datatype,All,General,0,Standardize the data-type to number
+N_claims_history,Wrong Datatype,All,General,0,Standardize the data-type to number
+R_Claims_history,Wrong Datatype,All,General,0,Standardize the data-type to number
+Type_risk,None,All,General,0,"Assigned Low,Medium, High and Very High to 1,2,3,4"
+Area,None,All,General,0,Standardize the data-type to number
+Second_driver,None,All,General,0,Assigned Yes and No to the 1s and 0s
+Year_matriculation,None,0,General,0,Not Applicable
+Power,Not Clear,Not Clear,Not Clear,Not Clear,Not Clear
+Cylinder_capacity,Not Clear,Not Clear,Not Clear,Not Clear,Not Clear
+Value_vehicle,Wrong Datatype,All,General,0,Standardize the data-type to currency
+N_doors,Not Clear,73794,General,73794,"Assigned ""Data Quality Issue"" to values(0,5,6)"
+Type_fuel,NA,1763,General,,"Assigned ""Unknown"" to NA"
+Length,Wrong Datatype,10323,General,10323,Replaced the NA with the median of the column
+Weight,Wrong Datatype,All,General,All,Standardize the data-type to number

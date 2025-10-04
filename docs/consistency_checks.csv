@@ -1,0 +1,31 @@
+Column,Illogical_Checks,Process_Summary,No-of_Affected_Rows,Actions_Taken
+ID,,,,
+Date_start_contract,None,Not Applied,Not Applied,Not Applied
+Date_last_renewal,Date,If statement,68,"If Date_last_renewal<Date_start_contract, ""Inconsistent"", ""Consistent"")"
+Date_next_renewal,Date,Dated If statement,0,"DATEDIF(Date_last_contract,Date_next_renewal ""Y"")"
+Date_birth,Date,If statement,0,"If the age is either greater than 120 or less than 0, ""Illogical"", ""Good"""
+Date_driving_licence,Date,If statement,0,"If Date_driving_licence<Date_birth, ""Inconsistent"", ""Consistent"")"
+Distribution_channel,None,Not Applied,Not Applied,Not Applied
+Seniority,None,Not Applied,Not Applied,Not Applied
+Policies_in_force,None,Not Applied,Not Applied,Not Applied
+Max_policies,None,Not Applied,Not Applied,Not Applied
+Max_products,None,Not Applied,Not Applied,Not Applied
+Lapse,None,Not Applied,Not Applied,Not Applied
+Date_lapse,Blanks,Deleted column,70408,Removed the Date_lapse because Lapse column already contains the information I need
+Payment,Not Clear,Not Clear,Not Clear,Not Clear
+Premium,None,Not Applied,Not Applied,Not Applied
+Cost_claims_year,None,Not Applied,Not Applied,Not Applied
+N_claims_year,None,Not Applied,Not Applied,Not Applied
+N_claims_history,None,Not Applied,Not Applied,Not Applied
+R_Claims_history,None,Not Applied,Not Applied,None
+Type_risk,None,If statement,Not Applied,"IF(Type_risk=1, ""Low"", IF(Type_risk=2, ""Medium"", IF(Type_risk=3, ""High"", IF(Type_risk=4, ""Very High"", ""Other""))))"
+Area,None,Not Applied,Not Applied,Not Applied
+Second_driver,None,If statement,Not Applied,"If(Second_driver=1, ""YES"", ""No"")"
+Year_matriculation,,,,
+Power,Not Clear,Not Clear,Not Clear,Not Clear
+Cylinder_capacity,Not Clear,Not Clear,Not Clear,Not Clear
+Value_vehicle,None,Not Applied,Not Applied,Not Applied
+N_doors,Unusual No,If statement,,"IF(OR(Z2=0, Z2=5,Z2=6), ""Data Quality Issue"", ""OK"")"
+Type_fuel,NA,Not Applied,1763,"Left it and Assigned ""Unknown"" to NA"
+Length,NA,Imputation,10323,"Assigned ""4.23"" (Median) to Na    "
+Weight,Not Clear,Not Clear,Not Clear,Not Clear

@@ -1,0 +1,10 @@
+Column,Histogram_Distribution,Observation,Handling_Strategy,Affected_Row,Remedy,R_Formula,Bin
+Premium,Right,Outlier present,Quartiles,105486,Logarithm,Log(Premium2),H & L
+Cost_claims_year,Right,Outlier present,Binary Flag,85859,Logarithm,Log(nonzeros(CCY,H & L
+R_Claims_history,Right,Outlier present,Binary Flag,53627,Logarithm,Log(nonzeros(RCH,H & L
+Value_vehicle,Right,Outlier present,Binary Flag,105487,Logarithm,log(Value_vehicle,H & L
+Length,Symmetrical,None,None,0,None,None,H & L
+Weight,Right,Outlier present,Binary Flag,105487,Logarithm,log(Weight),H & L
+Seniority,Right,Outlier present,Binary Flag,105487,Logarithm,Log(Seniority),H & L
+Power,Right,Outlier present,Binary Flag,1719,Logarithm,log(Power+1,H & L
+Cylinder_capacity,Right,Outlier present,Binary Flag,,Logarithm,log(Cylinder_cap),H & L

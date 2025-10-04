@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project investigates a motor vehicle insurance portfolio with a strict focus on **data quality, reproducible cleaning, exploratory data analysis (EDA), and advanced statistical testing**. The workflow is deliberately linear and auditable so anyone can trace a finding back to the exact sheet and step that produced it.
+This project investigates a motor vehicle insurance portfolio with a strict focus on **data quality, reproducible cleaning, exploratory data analysis (EDA), and advanced statistical testing**. The workflow is deliberately linear and auditable so anyone can trace a finding back to the exact file and step that produced it.
 
 **Tools used:** Excel (profiling, cleaning, EDA, tests) • Tableau (dashboards) • R (automation / extensions planned)
 
@@ -14,21 +14,21 @@ This project investigates a motor vehicle insurance portfolio with a strict focu
 
 ### 1. **Data Profiling**
 
-* **Extracted file:** `docs/data_profiling.csv`
+* **Extracted file:** [docs/data_profiling.csv](docs/data_profiling.csv)
 * **Tasks performed:** Checked data types, missing values, and duplicates. Generated summary statistics (mean, median, std for numerics; counts for categoricals). Logged missing-value counts by column.
 
 ---
 
 ### 2. **Consistency Checks**
 
-* **Extracted file:** `docs/consistency_checks.csv`
+* **Extracted file:** [docs/consistency_checks.csv](docs/consistency_checks.csv)
 * **Tasks performed:** Logical validation (policy start ≤ end dates, premium ≥ 0, claim ≤ premium, realistic vehicle ages). Documented affected rows and corrective actions.
 
 ---
 
 ### 3. **Clean Dataset**
 
-* **Extracted file:** `data_clean/Motor_vehicle_insurance_data_AL.csv`
+* **Extracted file:** [data_clean/Motor_vehicle_insurance_data_AL.csv](data_clean/Motor_vehicle_insurance_data_AL.csv)
 * **Tasks performed:** Removed inconsistencies, enforced data types (dates, numerics), removed duplicates, and produced the **ready-to-use clean dataset** for further analysis.
 
 ---
@@ -37,8 +37,8 @@ This project investigates a motor vehicle insurance portfolio with a strict focu
 
 * **Extracted files:**
 
-  * Continuous analysis → `analysis/EDA_CONT_Numerical.csv`
-  * Discrete/categorical analysis → `analysis/Discrete_Numerical_Column.csv`
+  * Continuous analysis → [analysis/EDA_CONT_Numerical.csv](analysis/EDA_CONT_Numerical.csv)
+  * Discrete/categorical analysis → [analysis/Discrete_Numerical_Column.csv](analysis/Discrete_Numerical_Column.csv)
 
 * **Tasks performed:**
 
@@ -51,10 +51,10 @@ This project investigates a motor vehicle insurance portfolio with a strict focu
 
 * **Extracted files:**
 
-  * `analysis/t_test.csv`
-  * `analysis/chi_square.csv`
-  * `analysis/anova.csv`
-  * `analysis/post_hoc.csv`
+  * [analysis/t_test.csv](analysis/t_test.csv)
+  * [analysis/chi_square.csv](analysis/chi_square.csv)
+  * [analysis/anova.csv](analysis/anova.csv)
+  * [analysis/post_hoc.csv](analysis/post_hoc.csv)
 
 * **Tasks performed:**
 
@@ -77,7 +77,7 @@ This project investigates a motor vehicle insurance portfolio with a strict focu
 Interactive dashboards were built in Tableau to visualize the above relationships (claims, premiums, channels, risk profiles).
 👉 [Motor Vehicle Insurance Dashboard — Tableau Public](https://public.tableau.com/app/profile/emmanuel.agbo3961/viz/MotorVehicleInsuranceAnalytics/Dashboard1?publish=yes)
 
-Screenshots of the dashboards are saved in the `visualizations/` folder for quick viewing.
+Screenshots of the dashboards are saved in the [visualizations](visualizations) folder for quick viewing.
 
 ---
 
