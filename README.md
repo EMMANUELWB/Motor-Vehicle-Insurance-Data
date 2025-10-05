@@ -27,7 +27,7 @@ This project investigates a motor vehicle insurance portfolio with a strict focu
 
 ### 3. **Clean Dataset**
 
-* **Extracted file:** [data_clean/Motor_Vehicle_Insurance_Data_AL.csv](data_clean/Motor_Vehicle_Insurance_Data_AL.xlxs)
+* **Extracted file:** [data_clean/Motor_Vehicle_Insurance_Data_AL.xlxs](data_clean/Motor_Vehicle_Insurance_Data_AL.xlxs)
 * **Tasks performed:** Removed inconsistencies, enforced data types (dates, numerics), removed duplicates, and produced the **ready-to-use clean dataset** for further analysis.
 
 ---
