@@ -1,5 +1,4 @@
 # ANOVA: Single Factor
-
 ## Summary
 
 | Groups                | Count | Sum     | Average      | Variance      |
@@ -17,12 +16,3 @@
 | Within Groups       | 196791140.3 | 15947 | 12340.32359  |             |         |              |
 | Total               | 321495815.3 | 15950 |              |             |         |              |
 
----
-
-## Interpretation  
-
-- The **F statistic (3368.49)** is much larger than the **F critical value (2.61)**.  
-- The **p-value = 0**, which is less than 0.05.  
-- Therefore, we **reject the null hypothesis**.  
-
-This means there is a **statistically significant difference** between the average premiums across the different risk levels (Low, Medium, High, Very High).
