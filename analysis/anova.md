@@ -16,7 +16,7 @@
 | Within Groups       | 196791140.3 | 15947 | 12340.32359  |             |         |              |
 | Total               | 321495815.3 | 15950 |              |             |         |              |
 
-Interpretation
+## Interpretation
 The F statistic (3368.49) is much larger than the F critical value (2.61).
 The p-value = 0, which is less than 0.05.
 Therefore, we reject the null hypothesis.
