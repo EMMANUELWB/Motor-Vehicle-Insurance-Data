@@ -2,12 +2,12 @@
 
 Group averages used (from ANOVA summary):
 
-|                  Group |     Mean |    n |
-| ---------------------: | -------: | ---: |
-|       Premium_Low_Risk | 141.9833 | 5085 |
-|    Premium_Medium_Risk | 309.1583 | 5085 |
-|      Premium_High_Risk | 323.2647 | 5085 |
-| Premium_Very_High_Risk |  79.2773 |  696 |
+|                  Group |     Mean | count |
+| ---------------------: | -------: | ----: |
+|       Premium_Low_Risk | 141.9833 | 5085  |
+|    Premium_Medium_Risk | 309.1583 | 5085  |
+|      Premium_High_Risk | 323.2647 | 5085  |
+| Premium_Very_High_Risk |  79.2773 |  696  |
 
 **ANOVA within-group MS:** 12,340.32359 (df = 15,947)
 
@@ -40,7 +40,7 @@ This section reports the results of pairwise comparisons between the different g
 * **Medium vs Very High**: Very High-Risk customers pay 229.88 units more than Medium-Risk customers.
 
 ### Overall Takeaway
-Premiums increase consistently with policyholder risk level: Low → Medium → High → Very High.
+Premiums increase consistently with policyholder risk level: **Low → Medium → High → Very High**.
 
 The results strongly support that risk classification is closely associated with the amount customers pay, with the largest differences observed when comparing Very High-Risk customers to all other groups.
 
