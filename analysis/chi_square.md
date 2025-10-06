@@ -30,8 +30,16 @@ Tested the relationship between **risk categories** and a **Yes/No outcome** (**
 
 ## Interpretation
 
-There is a **highly significant association** between the categorical variables analyzed. The probability of observing this result by chance is effectively zero, which strongly rejects the null hypothesis of independence.
-The risk categories are tied to the Second_driver Yes/No outcome. The Chi-Square test shows a strong association.
-## **Why** **this** **matters** 
-The observed Yes/No counts vary by risk category in a way that would be very unlikely if there were no relationship.
-The High-risk and Very High rows contribute most to this association.
+There is a highly significant association between policyholder risk level and the presence of a second driver on the policy. The probability of observing this pattern by chance is essentially zero, strongly rejecting the null hypothesis of independence.
+
+* High-Risk and Very High-Risk policyholders show the largest contributions to the association, suggesting that these groups are more likely to have a second driver (or contribute disproportionately to the chi-square statistic due to low or high counts).
+
+* Lower-risk categories (Low and Medium) show fewer second drivers than expected under independence.
+
+## Why This Matters
+
+* The presence of a second driver is not evenly distributed across risk levels.
+
+* Risk level is strongly tied to the likelihood of having a second driver, which can inform policy pricing, underwriting, and risk assessment strategies.
+
+* Understanding this relationship helps the insurer identify patterns in coverage and potential risk exposure.
