@@ -30,14 +30,14 @@ This section reports the results of pairwise comparisons between the different g
 
 ## Interpretation
 
-* All pairwise comparisons are statistically significant (p < 0.001).
+* All pairwise comparisons are statistically significant (*p* < 0.001).
 
-* **High vs Low: Customers in the High-Risk group pay on average 181.28 currency units more than those in the Low-Risk group, showing a substantial premium increase with risk.
-* **High vs Medium: High-Risk customers pay 14.11 units more than Medium-Risk customers. This is a smaller, but still statistically significant, difference.
-* **High vs Very High: Very High-Risk customers pay 243.99 units more than High-Risk customers, representing the largest incremental premium between adjacent risk categories.
-* **Low vs Medium: Medium-Risk customers pay 167.18 units more than Low-Risk customers.
-* **Low vs Very High: Very High-Risk customers pay 62.71 units more than Low-Risk customers.
-* **Medium vs Very High: Very High-Risk customers pay 229.88 units more than Medium-Risk customers.
+* **High vs Low**: Customers in the High-Risk group pay on average 181.28 currency units more than those in the Low-Risk group, showing a substantial premium increase with risk.
+* **High vs Medium**: High-Risk customers pay 14.11 units more than Medium-Risk customers. This is a smaller, but still statistically significant, difference.
+* **High vs Very High**: Very High-Risk customers pay 243.99 units more than High-Risk customers, representing the largest incremental premium between adjacent risk categories.
+* **Low vs Medium**: Medium-Risk customers pay 167.18 units more than Low-Risk customers.
+* **Low vs Very High**: Very High-Risk customers pay 62.71 units more than Low-Risk customers.
+* **Medium vs Very High**: Very High-Risk customers pay 229.88 units more than Medium-Risk customers.
 
 ### Overall Takeaway
 Premiums increase consistently with policyholder risk level: Low → Medium → High → Very High.
