@@ -74,7 +74,6 @@ All detailed descriptions and results for statistical tests are located in the *
 Interactive dashboards were built in Tableau to visualize the above relationships (claims, premiums, channels, risk profiles).
 👉 [Motor Vehicle Insurance Dashboard — Tableau Public](https://public.tableau.com/app/profile/emmanuel.agbo3961/viz/MotorVehicleInsuranceAnalytics/Dashboard1?publish=yes)
 
-Screenshots of the dashboards are saved in the [visualizations](visualizations) folder for quick viewing.
 
 ---
 
