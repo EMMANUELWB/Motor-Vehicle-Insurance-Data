@@ -1,6 +1,6 @@
-# 🚗 Motor Vehicle Insurance Data Analysis
+# Motor Vehicle Insurance Data Analysis
 
-## 📌 Project Overview
+## Project Overview
 
 This project investigates a motor vehicle insurance portfolio with a strict focus on **data quality, reproducible cleaning, exploratory data analysis (EDA), and advanced statistical testing**. The workflow is deliberately linear and auditable so anyone can trace a finding back to the exact file and step that produced it.
 
@@ -8,7 +8,7 @@ This project investigates a motor vehicle insurance portfolio with a strict focu
 
 ---
 
-## 🧭 Workflow: Step-by-step (Data Quality → Analysis → Insights)
+## Workflow: Step-by-step (Data Quality → Analysis → Insights)
 
 
 ### 1. **Data Profiling**
