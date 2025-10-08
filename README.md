@@ -61,7 +61,7 @@ All detailed descriptions and results for statistical tests are located in the *
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 * **Premium vs. Risk:** Low-risk policies averaged **$143**, high-risk policies averaged **$327**.
 * **Claims & Drivers:** Policies with a **second driver** were more likely to be high-risk.
@@ -69,15 +69,15 @@ All detailed descriptions and results for statistical tests are located in the *
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 Interactive dashboards were built in Tableau to visualize the above relationships (claims, premiums, channels, risk profiles).
-👉 [Motor Vehicle Insurance Dashboard — Tableau Public](https://public.tableau.com/app/profile/emmanuel.agbo3961/viz/MotorVehicleInsuranceAnalytics/Dashboard1?publish=yes)
+[Motor Vehicle Insurance Dashboard — Tableau Public](https://public.tableau.com/app/profile/emmanuel.agbo3961/viz/MotorVehicleInsuranceAnalytics/Dashboard1?publish=yes)
 
 
 ---
 
-## 🚀 Next Steps
+## Next Steps
 
 * Expand into predictive modeling for claim likelihood and premium optimization.
 * Automate the cleaning & EDA pipeline using **SQL or R** so future data ingests run like clockwork.
