@@ -85,7 +85,7 @@ Interactive dashboards were built in Tableau to visualize the above relationship
 
 ---
 
-## 👤 Author
+## Author
 
 **Emmanuel Agbo** — Data Analyst | Excel • SQL • Tableau • R
 
